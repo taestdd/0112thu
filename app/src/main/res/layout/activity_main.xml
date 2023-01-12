@@ -16,21 +16,25 @@
         />
 
     <EditText
+        android:id="@+id/contentEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Input Text"
-        />
+        android:hint="Input Text" />
+
     <Button
+        android:id="@+id/enterBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"/>
 
     <TextView
+        android:id="@+id/resultTxt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Field"
-        
+        android:text="Empty"
+        android:layout_marginTop="32dp"
+        android:gravity="center"/>
 
 
 
